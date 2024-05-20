@@ -7,7 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>Sharelane_QA26_Kate_Urbanovich</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+git 
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>

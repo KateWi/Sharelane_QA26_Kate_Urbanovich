@@ -48,7 +48,7 @@ public class ShareLaneTests {
     }
 
     @Test
-    public void RegistrationFormPositiveTest() {
+    public void registrationFormPositiveTest() {
         driver.navigate().to("https://sharelane.com/cgi-bin/register.py?");
         WebElement zipCodeInput = driver.findElement(By.name("zip_code"));
         zipCodeInput.sendKeys("12345");
@@ -67,7 +67,7 @@ public class ShareLaneTests {
     }
 
     @Test
-    public void RegistrationFormNegativeTest() {
+    public void registrationFormNegativeTest() {
         driver.navigate().to("https://sharelane.com/cgi-bin/register.py?");
         WebElement zipCodeInput = driver.findElement(By.name("zip_code"));
         zipCodeInput.sendKeys("12345");
